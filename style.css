@@ -1,28 +1,31 @@
-body{
+.body {
     margin: 0;
     padding: 0;
     background-color: #efefef;
-
 }
-.topo{
+
+.topo {
     display: flex;
     width: 1000px;
-    background-color: #808080; 
+    background-color: #0000ff;
     border-radius: 10px;
     margin: auto;
     margin-top: 40px;
     padding: 25px;
     color: #fff;
 }
-.topo img{
+
+.topo img {
     width: 50px;
 }
-.image{
+
+.image {
     display: flex;
     align-items: center;
-    justify-content: center; 
-flex: 1;
+    justify-content: center;
+    flex: 1;
 }
+
 .cadastro-topo {
     flex: 4;
 }
@@ -33,21 +36,109 @@ flex: 1;
 
 .documentos-necessarios {
     display: flex;
-    width:950px;
+    width: 1000px;
     margin: auto;
-    background-color:#FFDEAD;
+    background-color: #FFDEAD;
     padding: 25px;
     margin-top: 30px;
     border-radius: 10px;
 }
+
 .imagem-documentos {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.dados-left{
+.imagem-documentos img {
+   width: 70px; 
+}
+
+.dados-left {
     flex: 2;
 }
- 
+
 .dados-right {
     flex: 2;
+}
+
+.dados-pessoais {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.informacao-funcionario {
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+}
+
+.informacao-funcionario p {
+    background-color: #ccc;
+    line-height: 3;
+    padding: 2px 8px 2px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.pequeno {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.medio {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.grande {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.extra {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+        display: flex;
+      width: 950px;   
+       gap: 20px;
+}
+
+input{
+    height: 32px;
+    border: solid 1px #cdcdcd;
+    border-radius: 4px;
+    margin-top: 8px;
+    outline: none;
+    padding: 6px;
+}
+.linha{
+     display: flex;
+      width: 950px;   
+       gap: 20px;
+}
+.medio{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.local{
+flex: 2;
+    display: flex;
+    flex-direction: column;
 }
